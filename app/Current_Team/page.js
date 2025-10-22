@@ -54,7 +54,7 @@ const Current_Team = () => {
                                 <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Ashok_Kumar_Meena.jpg" name="Ashok Kumar Meena" position="Architecture Lead" />
                                 <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Suthinthararaj_B.jpg" name="Suthinthararaj B" position="Electronics Lead" />
                                 <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Geeta_Priyanka.jpg" name="Geeta Priyanka" position="Communication Systems Lead" />
-                                <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Janani_Nandhakumar.jpg" name="Janani Nandhakumar" position="Communication Systems Lead" />
+                                <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Janani_Nandhakumar.JPG" name="Janani Nandhakumar" position="Communication Systems Lead" />
                             </div>
 
                             <div className='flex max-[1400px]:flex-wrap gap-20 justify-center my-20 '>
@@ -89,7 +89,7 @@ const Current_Team = () => {
                             </div>
                             <div className='flex max-[1400px]:flex-wrap gap-20 justify-center my-20'>
                                 <CurrentTeam img_url="/images/Team_Photos/Team_Members/Mech/Niphade_Sarthak_Navnath.jpg" name="Sarthak Niphade" position="Project Member" />
-                                <CurrentTeam img_url="/images/Team_Photos/Team_Members/Mech/Tharunvarma_R.jpg" name="Tharunvarma.R " position="Project Member" />
+                                <CurrentTeam img_url="/images/Team_Photos/Team_Members/Mech/Tharunvarma_R.JPG" name="Tharunvarma.R " position="Project Member" />
                                 <CurrentTeam img_url="/images/Team_Photos/Team_Members/Mech/Lohitha_V.jpg" name="V. Lohitha" position="Project Member" />
                                 <CurrentTeam img_url="/images/Team_Photos/Team_Members/Mech/Subbulakshmi_P.jpg" name="Subbulakshmi P" position="Project Member" />
                             </div>
