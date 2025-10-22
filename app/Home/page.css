@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: "inter", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+
+/*Upper Page*/
+.upper_page {
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+}
+
+
+
+
+.team_anveshak {
+    color: white;
+    font-family: "Source Serif pro";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team_anveshak>span:nth-child(2) {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+
+/*middle page*/
+
+.before_about_us {
+    width: 90vw;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 30vh;
+}
+
+.before_about_us>.text {
+    font-size: 50px;
+    font-weight: 700;
+    width: 310px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.before_about_us>.seperator {
+    height: 30vh;
+    width: 8px;
+    background-color: #DD6408;
+}
+
+/*About US*/
+
+.about_us_container {
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+
+.about_us_container>.about_us {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    border: 3px solid #D5CDCD;
+    border-radius: 20px;
+    padding: 40px;
+    text-spacing-trim: 10px;
+}
+
+.about_us_container>.about_us>span:nth-child(1) {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    color: #DD6408;
+    /* -webkit-text-stroke: 1px #D9D9D996;  */
+    text-shadow:
+        -1px -1px 0 #D9D9D996,
+        1px -1px 0 #D9D9D996,
+        -1px 1px 0 #D9D9D996,
+        1px 1px 0 #D9D9D996;
+}
+
+.about_us_container>.about_us>span {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+/*IIT MADRAS*/
+
+.IIT_M_container {
+    padding: 27.5px 22.5px;
+    background-color: black;
+    margin-top: 130px;
+}
+
+.IIT_M_container>.IIT_M_block {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    color: white;
+    border: 3px solid #D5CDCD;
+    border-radius: 20px;
+    padding: 25px 25px;
+}
+
+.IIT_M_block>.first_block,
+.IIT_M_block>.second_block {
+    display: flex;
+}
+
+.IIT_M_block>.first_block>img {
+    width: 456px;
+    height: 285px;
+}
+
+.IIT_M_block>.second_block>img {
+    width: 323px;
+    height: 323px;
+}
+
+.IIT_M_block>.iit_heading {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.IIT_M_block>.iit_heading>span:nth-child(1) {
+    color: #DD6408;
+}
+
+.IIT_M_block>.iit_heading>span:nth-child(2) {
+    color: #C6C4C4;
+    text-shadow:
+        -1px -1px 0 #DD640894,
+        1px -1px 0 #DD640894,
+        -1px 1px 0 #DD640894,
+        1px 1px 0 #DD640894;
+}
+
+.IIT_M_block>.first_block>span,
+.IIT_M_block>.second_block>span {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.IIT_M_block>.first_block {
+    text-align: justify;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    gap: 170px;
+}
+
+.IIT_M_block>.second_block {
+    text-align: justify;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    gap: 170px;
+}
+
+.IIT_M_block>.second_block a {
+    color: #DD6408;
+}
+
+/*Achievements*/
+
+
+.achievements_container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.achievements_container>h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 60px;
+    
+    color: #DD6408;
+    text-shadow:
+        -1px -1px 0 #C6C4C48F,
+        1px -1px 0 #C6C4C48F,
+        -1px 1px 0 #C6C4C48F,
+        1px 1px 0 #C6C4C48F;
+}
+
+.achievements_container>.card_container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.achievements_container>.card_container>.card {
+    background-color: #D9D9D9;
+    width: 280px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    border-radius: 25px;
+}
+
+.achievements_container>.card_container>.card>.rank {
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.achievements_container>.card_container>.card>.comp {
+    font-weight: 800;
+    font-size: 45px;
+    color: #DD6408;
+}
+
+.achievements_container>.card_container>.card>.para {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+@media(max-width:1100px) {
+    .before_about_us>.text {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:1150px) {
+    .achievements_container {
+        margin-top: 150px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .achievements_container>.card_container {
+        gap: 10px;
+    }
+
+    .achievements_container>.card_container>.card>.para {
+        padding: 10px;
+    }
+}
+
+@media(max-width:1500px) {
+
+    .IIT_M_block>.first_block>img,
+    .IIT_M_block>.second_block>img {
+        display: none;
+    }
+}
+
+
+@media(max-width:550px) {
+    .before_about_us>.text {
+        font-size: 20px;
+        height: 20vh;
+    }
+
+    .before_about_us>.seperator {
+        height: 20vh;
+        width: 8px;
+    }
+}
+
+@media(max-width:700px) {
+
+    .achievements_container {
+        margin-top: 150px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .achievements_container>.card_container>.card>.para {
+        padding: 5px;
+    }
+
+
+    .IIT_M_container>.IIT_M_block {
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .IIT_M_container {
+        padding: 10px;
+    }
+
+    .IIT_M_block>.iit_heading,
+    .about_us_container>.about_us>span:nth-child(1) {
+        font-size: 30px;
+    }
+
+    .IIT_M_block>.first_block>span,
+    .IIT_M_block>.second_block>span {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .about_us_container {
+        padding: 20px;
+    }
+
+    .about_us_container>.about_us {
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .about_us_container>.about_us>span {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+}
+
+@media(max-width:800px) {
+
+    .achievements_container>h2{
+        font-size: 40px;
+    }
+}
+
+@media(max-width:900px) {
+    .team_anveshak>span:nth-child(2) {
+        font-size: 25px;
+    }
+
+    .achievements_container>.card_container>.card>.para {
+        padding: 0px;
+    }
+}
+
+@media(max-width:550px) {
+    .team_anveshak>span:nth-child(2) {
+        font-size: 15px;
+    }
+}

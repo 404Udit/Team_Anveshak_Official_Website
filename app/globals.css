@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    font-family: "inter", sans-serif;
+}
+body{
+    background-color: black;
+}
+
+/* For WebKit browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a; /* Very dark background */
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(145deg, #ff6600, #ff9900); /* Orange gradient */
+  border-radius: 10px;
+  border: 2px solid #0a0a0a; /* Matches the track */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(145deg, #ffaa00, #ff6600); /* Brighter on hover */
+}
+
+
+@keyframes logo-glow {
+  0%, 100% {
+    text-shadow: 0 0 10px #ff6a00, 0 0 20px #ff6a00, 0 0 30px #ff6a00;
+    letter-spacing: 0.05em;
+  }
+  50% {
+    text-shadow: 0 0 20px #ffa600, 0 0 40px #ffa600, 0 0 60px #ff7300;
+    letter-spacing: 0.15em;
+  }
+}
+
+.animate-logo-glow {
+  animation: logo-glow 3s ease-in-out infinite;
+}
+
+
+.hover-magnetic:hover {
+  transform: scale(1.05) translateY(-3px);
+  transition: transform 0.3s ease;
+}
+
+
+@layer utilities {
+  @keyframes scaleOnce {
+    0%   { transform: scale(1); }
+    50%  { transform: scale(1.2); }
+    100% { transform: scale(1); }
+  }
+  .animate-scale-once { animation: scaleOnce 0.4s ease forwards; }
+
+  /* Hover helper (kept separate so you can reuse anywhere) */
+  .hover-scale-110 { transition: transform 300ms ease; }
+  .hover-scale-110:hover { transform: scale(1.2); }
+
+  /* Stagger helpers for animation delay */
+  .anim-delay-0   { animation-delay: 1000ms; }
+  .anim-delay-200 { animation-delay: 1200ms; }
+  .anim-delay-400 { animation-delay: 1400ms; }
+  .anim-delay-600 { animation-delay: 1600ms; }
+  .anim-delay-800 { animation-delay: 1800ms; }
+}
+

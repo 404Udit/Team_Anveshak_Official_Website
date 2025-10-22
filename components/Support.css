@@ -1,0 +1,40 @@
+.support_btn {
+    font-size: 28px;
+    font-weight: 800;
+    font-style: italic;
+    background-color: #DD6408;
+    color: white;
+    padding: 18px;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    right: 43px;
+    top: 160px;
+    transition: all 0.9s;
+    cursor: pointer;
+}
+
+.support_btn:hover {
+    background-color: rgba(153, 153, 153, 0.2);
+    color: #DD6408;
+    box-shadow: 3px 2px 2px #DD6408;
+}
+
+@media(max-width:1100px) {
+    .support_btn {
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 800;
+        right: 10px;
+        top: 120px;
+    }
+}
+@media(max-width:550px) {
+    .support_btn {
+        padding: 8px;
+        font-size: 15px;
+        font-weight: 800;
+        right: 10px;
+        top: 100px;
+    }
+}
