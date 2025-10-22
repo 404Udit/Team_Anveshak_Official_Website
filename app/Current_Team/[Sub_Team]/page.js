@@ -17,49 +17,49 @@ const SubTeam = () => {
                     <Image fill className="object-cover transition-opacity" priority src="/images/stars.svg" alt="" />
                 </div>
                 {params.Sub_Team == "MECHANICAL" && <> <h2 className='font-[700] text-[40px] max-[700px]:text-[30px] my-20 text-center text-[#DD6408]'>MECH MODULE</h2>
-                    <div className='flex max-[1600px]:flex-wrap gap-20 justify-center my-20 '>
+                    <div className='flex max-[1400px]:flex-wrap gap-20 justify-center my-20 '>
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/Mech/Shubhkarman_Singh_Sandhu.jpg" name="Shubhkarman Singh Sandhu " position="Project Member" />
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/Mech/Geddam_Sharon_Raj.jpg" name="Sharon Raj Geddam " position="Project Member" />
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/Mech/Donga_Dwij_Rajesh.jpg" name="Dwij Donga " position="Project Member" />
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/Mech/Shahid_Ibrahim_V_N.jpg" name="Shahid Ibrahim " position="Project Member" />
                     </div>
-                    <div className='flex max-[1600px]:flex-wrap gap-20 justify-center my-20'>
+                    <div className='flex max-[1400px]:flex-wrap gap-20 justify-center my-20'>
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/Mech/Niphade_Sarthak_Navnath.jpg" name="Sarthak Niphade" position="Project Member" />
-                        <CurrentTeam img_url="/images/Team_Photos/Team_Members/Mech/Tharunvarma_R.jpg" name="Tharunvarma.R " position="Project Member" />
+                        <CurrentTeam img_url="/images/Team_Photos/Team_Members/Mech/Tharunvarma_R.JPG" name="Tharunvarma.R " position="Project Member" />
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/Mech/Lohitha_V.jpg" name="V. Lohitha" position="Project Member" />
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/Mech/Subbulakshmi_P.jpg" name="Subbulakshmi P" position="Project Member" />
                     </div>
-                    <div className='flex max-[1600px]:flex-wrap gap-20 justify-center my-20'>
+                    <div className='flex max-[1400px]:flex-wrap gap-20 justify-center my-20'>
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/Mech/Anany_Malela.jpeg" name="Ananya Malela " position="Project Member" />
                     </div></>}
 
                 {decodeURIComponent(params.Sub_Team) == "ELEC&SOFT" && <><h2 className='my-20 font-[700] text-[40px] max-[700px]:text-[30px] text-center text-[#DD6408] '>ELEC & SOFT MODULE</h2>
-                    <div className='flex max-[1600px]:flex-wrap gap-20 justify-center my-20 '>
+                    <div className='flex max-[1400px]:flex-wrap gap-20 justify-center my-20 '>
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/E&S/Adeesh_Jain.jpg" name="Adeesh Jain" position="Project Member" />
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/E&S/Akhand_Veer_Garg.jpeg" name="Akhand Veer Garg" position="Project Member" />
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/E&S/Ananth_Raghav_Pai.jpg" name="Ananth Raghav Pai" position="Project Member" />
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/E&S/Apoorv_Shah.jpg" name="Apoorv Shah" position="Project Member" />
                     </div>
-                    <div className='flex max-[1600px]:flex-wrap gap-20 justify-center my-20 '>
+                    <div className='flex max-[1400px]:flex-wrap gap-20 justify-center my-20 '>
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/E&S/Bhatewara_Aditya_Rahul.jpeg" name="Aditya Bhatewara" position="Project Member" />
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/E&S/Harish_Saravanakumar.jpg" name="Harish" position="Project Member" />
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/E&S/Nipurn_Khetan.jpeg" name="Nipurn Khetan" position="Project Member" />
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/E&S/Nithin_K.jpg" name="K. Nithin" position="Project Member" />
                     </div>
-                    <div className='flex max-[1600px]:flex-wrap gap-20 justify-center my-20'>
+                    <div className='flex max-[1400px]:flex-wrap gap-20 justify-center my-20'>
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/E&S/Pavan_Naveen_M.jpg" name="M Pavan Naveen " position="Project Member" />
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/E&S/Prahlad_Seshadri.jpg" name="Prahlad Seshadri " position="Project Member" />
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/E&S/Srivatsan_S.jpg" name="Srivatsan S" position="Project Member" />
                     </div></>}
 
                 {params.Sub_Team == "ASTROBIO" && <> <h2 className='font-[700] text-[40px] max-[700px]:text-[30px] text-center text-[#DD6408] my-20'>ASTROBIO MODULE</h2>
-                    <div className='flex max-[1600px]:flex-wrap gap-20 justify-center my-20'>
+                    <div className='flex max-[1400px]:flex-wrap gap-20 justify-center my-20'>
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/Astro/Abishekapriyan_S.jpg" name="Abishekapriyan S" position="Project Member" />
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/Astro/Devesh_Bhargava.jpg" name="Devesh  Bhargava" position="Project Member" />
-                        <CurrentTeam img_url="/images/Team_Photos/Team_Members/Astro/Eshwaranath.jpg" name="Eshwaranath " position="Project Member" />
+                        <CurrentTeam img_url="/images/Team_Photos/Team_Members/Astro/Eshwaranath.JPG" name="Eshwaranath " position="Project Member" />
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/Astro/Keerthana_Brijesh.jpg" name="Keerthana Brijesh " position="Project Member" />
                     </div>
-                    <div className='flex max-[1600px]:flex-wrap gap-20 justify-center my-20'>
+                    <div className='flex max-[1400px]:flex-wrap gap-20 justify-center my-20'>
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/Astro/Mudavath_Praveen_Kumar.jpg" name="Mudavath Praveen Kumar " position="Project Member" />
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/Astro/Samhita_Muthukumar.jpg" name="Samhita Muthukumar " position="Project Member" />
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/Astro/Varsithaa_Shri_R.jpg" name="Varsithaa Shri R" position="Project Member" />
@@ -67,7 +67,7 @@ const SubTeam = () => {
 
 
                 {params.Sub_Team == "CPR" && <> <h2 className='font-[700] text-[40px] max-[700px]:text-[30px] text-center text-[#DD6408] my-20'>CORPORATE & PUBLIC RELATION MODULE</h2>
-                    <div className='flex max-[1600px]:flex-wrap gap-20 justify-center mt-20'>
+                    <div className='flex max-[1400px]:flex-wrap gap-20 justify-center mt-20'>
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/CPR/Hridik_Gaikwad.jpg" name="Hridik Gaikwad " position="Project Member" />
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/CPR/Naghul_Pranav_K_S.jpg" name="Naghul Pranav " position="Project Member" />
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/CPR/Ranjani_L.jpg" name="L Ranjani" position="Project Member" />
