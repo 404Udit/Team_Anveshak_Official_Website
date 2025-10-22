@@ -132,7 +132,7 @@ const Current_Team = () => {
                             <div className='flex max-[1400px]:flex-wrap gap-20 justify-center my-20'>
                                 <CurrentTeam img_url="/images/Team_Photos/Team_Members/Astro/Abishekapriyan_S.jpg" name="Abishekapriyan S" position="Project Member" />
                                 <CurrentTeam img_url="/images/Team_Photos/Team_Members/Astro/Devesh_Bhargava.jpg" name="Devesh  Bhargava" position="Project Member" />
-                                <CurrentTeam img_url="/images/Team_Photos/Team_Members/Astro/Eshwaranath.jpg" name="Eshwaranath " position="Project Member" />
+                                <CurrentTeam img_url="/images/Team_Photos/Team_Members/Astro/Eshwaranath.JPG" name="Eshwaranath " position="Project Member" />
                                 <CurrentTeam img_url="/images/Team_Photos/Team_Members/Astro/Keerthana_Brijesh.jpg" name="Keerthana Brijesh " position="Project Member" />
                             </div>
                             <div className='flex max-[1400px]:flex-wrap gap-20 justify-center my-20'>
