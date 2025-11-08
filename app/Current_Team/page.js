@@ -51,7 +51,6 @@ const Current_Team = () => {
                             </div>
 
                             <div className='flex max-[1400px]:flex-wrap gap-20 justify-center my-20'>
-                                
                                 <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Suthinthararaj_B.jpg" name="Suthinthararaj B" position="Electronics Lead" />
                                 <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Geeta_Priyanka.jpg" name="Geeta Priyanka" position="Communication Systems Lead" />
                                 <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Ritvik_Tlr.jpeg" name="TL Ritvik" position="Drone Module Lead" />
@@ -59,16 +58,11 @@ const Current_Team = () => {
                             </div>
 
                             <div className='flex max-[1400px]:flex-wrap gap-20 justify-center my-20 '>
-                                
-                                
                                 <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Lavanya_Rajagopalan_Iyer.jpg" name="Lavanya" position="Manipulator Lead" />
                                 <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Raaghava_Murthi.jpg" name="Raaghava" position="Manipulator & Traversal Lead" />
                                 <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Ankit_Khushal_Kesrod.jpg" name="Ankit Kesrod" position="Chassis Lead" />
                             </div>
 
-                            <div className='flex max-[1400px]:flex-wrap gap-20 justify-center mt-20 '>
-                                
-                            </div>
                         </ScrollMotion>
 
 
