@@ -22,7 +22,7 @@ const Rovers = () => {
                 <div className='flex justify-center bg-[#D9D9D9] p-5 mt-40'>
                     <Image width={10} height={30} priority className='w-auto h-auto' src="/images/Rovers/our_rovers.svg" alt="" />
                 </div>
-                <Rover_cards_l img_url="/images/Rovers/rover_1.png" year="2025" name="ISSAC" desc="Metal Wheels Rolling" />
+                <Rover_cards_l img_url="/images/Rovers/rover_1.png" year="2025" name="ISAAC" desc="Metal Wheels Rolling" />
                 <Rover_cards_r img_url="/images/Rovers/rover_2.png" year="2024" name="HEISENBERG" desc="Steerable robust rover" />
                 <Rover_cards_l img_url="/images/Rovers/rover_3.png" year="2024" name="HUBBLE" desc="Autonomous Rover" />
                 <Rover_cards_r img_url="/images/Rovers/rover_4.png" year="2023" name="GALILEO" desc="Anveshak Rises" />

@@ -4,7 +4,7 @@ export const dynamic = 'force-static'; // ✅ Ensures no dynamic fetch breaks pr
 
 export async function generateStaticParams() {
   const rovers = [
-    'ISSAC',
+    'ISAAC',
     'HEISENBERG',
     'HUBBLE',
     'GALILEO',

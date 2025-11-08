@@ -13,7 +13,7 @@ const CurrentTeam = ({ img_url, name, position }) => {
                  bg-gradient-to-b from-[#111] to-[#1a1a1a] rounded-3xl
                  shadow-[0_0_20px_rgba(221,100,8,0.2)]
                  hover:shadow-[0_0_40px_rgba(221,100,8,0.5)]
-                 transition-all duration-300 p-5 group"
+                 transition-all duration-300 p-5 group cursor-pointer"
       whileHover={{ scale: 1.05 }}
       transition={{ type: "spring", stiffness: 300, damping: 15 }}
     >

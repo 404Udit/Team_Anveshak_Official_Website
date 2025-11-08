@@ -39,34 +39,35 @@ const Current_Team = () => {
                             <h1 className='font-[900] text-[60px] max-[700px]:text-[40px] text-[#C0C0C0] uppercase text-center mt-40'>TEAM LEADS</h1>
                             <div className=' flex max-[1400px]:flex-wrap gap-20 justify-center my-20'>
                                 <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Swaraj_Manoj_Lonikar.jpg" name="Swaraj Lonikar" position="Mechanical Lead" />
-                                <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Vatsal_Manan_Patwari.jpeg" name="Vatsal Patwari" position="Electronics Lead" />
                                 <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Bhuvanesh_S.jpg" name="Bhuvanesh sundar" position="Electronics Lead" />
-                                <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Pozhilan_Karthikeyan.jpg" name="Bhuvanesh sundar" position="Electronics Lead" />
+                                <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Pozhilan_Karthikeyan.jpg" name="Pozhilan Karthikeyan" position="Electronics Lead" />
+                                <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Soham_Ashish_Warde.jpeg" name="Soham Warde" position="Software Lead" />
                             </div>
                             <div className='flex max-[1400px]:flex-wrap gap-20 justify-center my-20'>
-                                <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Soham_Ashish_Warde.jpeg" name="Soham Warde" position="Software Lead" />
                                 <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Aditya_Girish.jpg" name="Aditya Girish" position="Software Lead" />   
                                 <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Akade_Tejas_Deepak.jpg" name="Tejas Akade" position="AstroBio Lead" />
                                 <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Anamika_Anand.jpg" name="ANAMIKA ANAND" position="AstroBio Lead" />
+                                <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Ashok_Kumar_Meena.jpg" name="Ashok Kumar Meena" position="Architecture Lead" />
                             </div>
 
                             <div className='flex max-[1400px]:flex-wrap gap-20 justify-center my-20'>
-                                <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Ashok_Kumar_Meena.jpg" name="Ashok Kumar Meena" position="Architecture Lead" />
+                                
                                 <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Suthinthararaj_B.jpg" name="Suthinthararaj B" position="Electronics Lead" />
                                 <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Geeta_Priyanka.jpg" name="Geeta Priyanka" position="Communication Systems Lead" />
-                                <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Janani_Nandhakumar.JPG" name="Janani Nandhakumar" position="Communication Systems Lead" />
+                                <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Ritvik_Tlr.jpeg" name="TL Ritvik" position="Drone Module Lead" />
+                                <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Udit_Srivastava.jpg" name="Udit Srivastava" position="Chassis & Traversal Lead" />
                             </div>
 
                             <div className='flex max-[1400px]:flex-wrap gap-20 justify-center my-20 '>
-                                <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Ritvik_Tlr.jpeg" name="TL Ritvik" position="Drone Module Lead" />
-                                <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Udit_Srivastava.jpg" name="Udit Srivastava" position="Chassis & Traversal Lead" />
+                                
+                                
                                 <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Lavanya_Rajagopalan_Iyer.jpg" name="Lavanya" position="Manipulator Lead" />
                                 <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Raaghava_Murthi.jpg" name="Raaghava" position="Manipulator & Traversal Lead" />
+                                <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Ankit_Khushal_Kesrod.jpg" name="Ankit Kesrod" position="Chassis Lead" />
                             </div>
 
                             <div className='flex max-[1400px]:flex-wrap gap-20 justify-center mt-20 '>
-                                <CurrentTeam img_url="/images/Team_Photos/Team_Leads/Ankit_Khushal_Kesrod.jpg" name="Ankit Kesrod" position="Chassis Lead" />
-
+                                
                             </div>
                         </ScrollMotion>
 
@@ -147,7 +148,6 @@ const Current_Team = () => {
                             {/* CPR Module */}
                             <h2 className='font-[700] text-[40px] max-[700px]:text-[30px] text-center text-[#DD6408] mt-40'>CORPORATE & PUBLIC RELATION MODULE</h2>
                             <div className='flex max-[1400px]:flex-wrap gap-20 justify-center mt-20'>
-                                <CurrentTeam img_url="/images/Team_Photos/Team_Members/CPR/Hridik_Gaikwad.jpg" name="Hridik Gaikwad " position="Project Member" />
                                 <CurrentTeam img_url="/images/Team_Photos/Team_Members/CPR/Naghul_Pranav_K_S.jpg" name="Naghul Pranav " position="Project Member" />
                                 <CurrentTeam img_url="/images/Team_Photos/Team_Members/CPR/Ranjani_L.jpg" name="L Ranjani" position="Project Member" />
                                 <CurrentTeam img_url="/images/Team_Photos/Team_Members/CPR/Santhosh_Kumar_V.jpg" name="Santhosh Kumar" position="Project Member" />

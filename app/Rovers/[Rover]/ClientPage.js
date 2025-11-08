@@ -10,7 +10,7 @@ const Rover = () => {
     let params = useParams()
 
     const roverData = {
-        ISSAC: {
+        ISAAC: {
             img_url: "/images/Rovers/rover_1.png",
             desc: "The Isaac rover showcases a leap forward in design and functionality with the implementation of a robust Controller Area Network (CAN) system, custom-built motor drivers, and an integrated steering mechanism. By adopting CAN communication, Isaac achieves reliable and efficient data exchange between its various subsystems, ensuring synchronized operation and real-time control. The use of custom motor drivers further optimizes the performance of its motors, providing precise control over speed and torque while enhancing energy efficiency. Coupled with its steering capability, Isaac can navigate challenging terrain with improved maneuverability and adaptability."
         },
