@@ -131,6 +131,7 @@ const SubTeam = () => {
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/CPR/Naghul_Pranav_K_S.jpg" name="Naghul Pranav " position="Project Member" />
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/CPR/Ranjani_L.jpg" name="L Ranjani" position="Project Member" />
                         <CurrentTeam img_url="/images/Team_Photos/Team_Members/CPR/Santhosh_Kumar_V.jpg" name="Santhosh Kumar" position="Project Member" />
+                        <CurrentTeam img_url="/images/Team_Photos/Team_Members/CPR/Monica_Kannan.jpg" name="Monica Kannan" position="Project Member" />
                     </div></>}
 
             </MotionWrapper>
